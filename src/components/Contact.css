@@ -1,36 +1,53 @@
 .contact {
-    padding: 80px 50px;
-    background: #f9f9f9;
     text-align: center;
+    padding: 60px 10%;
+    background: #f9f9f9;
   }
   
   .contact h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #007acc;
+    margin-bottom: 15px;
   }
   
   .contact p {
-    font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    color: #444;
+    font-size: 1rem;
   }
   
-  .contact ul {
-    list-style: none;
-    padding: 0;
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
   }
   
-  .contact li {
-    font-size: 18px;
-    margin: 10px 0;
-  }
-  
-  .contact a {
-    color: #2196f3;
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5rem;
     text-decoration: none;
-    font-weight: bold;
+    color: #444;
+    transition: transform 0.3s, color 0.3s;
   }
   
-  .contact a:hover {
-    text-decoration: underline;
+  .icon span {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #333;
   }
+  
+  .icon:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Colors for each platform */
+  .icon.email { color: #d14836; }
+  .icon.linkedin { color: #0a66c2; }
+  .icon.github { color: #000; }
+  .icon.instagram { color: #e4405f; }
+  .icon.facebook { color: #1877f2; }
+  .icon.threads { color: #000; }
   
