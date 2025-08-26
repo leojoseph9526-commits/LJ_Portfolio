@@ -71,6 +71,18 @@ function About() {
           </div>
         </div>
 
+        <h2>Education</h2>
+        <p>
+
+         I hold a <strong>Masters’s degree in Computer Applications</strong>, 
+         where I built a strong foundation in <b>programming</b>, <b>web technologies</b>, 
+         and <b>software development</b>. During my academic journey, I worked on several projects 
+         <b>(JobSnatch, Techsol)</b> that helped me sharpen my problem-solving and analytical skills.
+         My coursework and hands-on practice introduced me to core concepts such as <b>data structures</b>, <b>algorithms</b>, 
+         <b>databases</b>, and <b>full-stack development</b>, which continue to guide me in building scalable 
+         and efficient applications today.
+        </p>
+
         <h2>Beyond Work</h2>
         <p>
           Outside of coding, I enjoy <b>traveling</b> ✈️ and <b>photography</b> 📸.

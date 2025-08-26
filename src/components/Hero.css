@@ -220,4 +220,40 @@
       font-size: 2rem;
     }
   }
-  
+  /* Mobile Fixes */
+@media (max-width: 600px) {
+  .hero-content {
+    flex-direction: column; /* stack image and text */
+    justify-content: center;
+    align-items: center; /* center both horizontally */
+    text-align: center;
+  }
+
+  .hero-text {
+    text-align: center; /* center the text */
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr; /* single column */
+    justify-items: center; /* center cards */
+  }
+
+  .about-card {
+    width: 90%; /* give some margin on sides */
+    max-width: 320px; /* prevent full stretch */
+  }
+
+  .about-preview {
+    max-width: 400px;
+    margin: 60px auto;
+    text-align: center;
+    margin-right: 4vh;
+  }
+  .card-back {
+    transform: rotateY(180deg);
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: normal;
+    margin-left: -4vh;
+  }
+}
