@@ -82,10 +82,10 @@ const Hero = () => {
         <div className="contact-icons">
           <a href="mailto:leojoseph9526@gmail.com" target="_blank" rel="noreferrer" className="icon email"><FaEnvelope /></a>
           <a href="https://www.linkedin.com/in/leo-joseph1568" target="_blank" rel="noreferrer" className="icon linkedin"><FaLinkedin /></a>
-          <a href="https://github.com/leojoseph9526" target="_blank" rel="noreferrer" className="icon github"><FaGithub /></a>
-          <a href="https://instagram.com/yourusername" target="_blank" rel="noreferrer" className="icon instagram"><FaInstagram /></a>
-          <a href="https://facebook.com/yourusername" target="_blank" rel="noreferrer" className="icon facebook"><FaFacebook /></a>
-          <a href="https://www.threads.net/@yourusername" target="_blank" rel="noreferrer" className="icon threads"><SiThreads /></a>
+          <a href="https://github.com/leojoseph9526-commits" target="_blank" rel="noreferrer" className="icon github"><FaGithub /></a>
+          <a href="https://www.instagram.com/l_j._.737?igsh=MW5xMjQwMmJjcm0yaQ==" target="_blank" rel="noreferrer" className="icon instagram"><FaInstagram /></a>
+          <a href="https://www.facebook.com/share/1GRdM2FG4P/" target="_blank" rel="noreferrer" className="icon facebook"><FaFacebook /></a>
+          <a href="https://www.threads.com/@l_j._.737" target="_blank" rel="noreferrer" className="icon threads"><SiThreads /></a>
         </div>
       </div>      
     </div>      

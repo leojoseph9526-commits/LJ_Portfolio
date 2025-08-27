@@ -9,7 +9,7 @@ const Resume = () => {
       {/* View CV inside the page */}
       <div className="resume-viewer">
         <iframe
-          src="/Resume_lj.pdf"
+          src="/Leo_Joseph.pdf"
           title="Resume"
           frameBorder="0"
           className="resume-iframe"
@@ -18,7 +18,7 @@ const Resume = () => {
 
       {/* Download Button */}
       <div className="download-btn">
-        <a href="/Resume_lj.pdf" download>
+        <a href="/Leo_Joseph.pdf" download>
           Download CV
         </a>
       </div>

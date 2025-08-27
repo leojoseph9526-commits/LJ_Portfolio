@@ -157,7 +157,7 @@
   /* Wrapper with transparent background and rounded borders */
 .contact-icons-wrapper {
   display: inline-block; /* shrink to fit content */
-  background: rgba(255, 255, 255, 0.181); /* light transparent background */
+  background: rgba(0, 0, 0, 0.201); /* light transparent background */
   padding: 20px 30px;
   border-radius: 20px;
   backdrop-filter: blur(10px); /* soft blur for modern look */
